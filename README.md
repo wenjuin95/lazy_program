@@ -1,5 +1,6 @@
 <h1>CLOCK AND BUTTON TO OPEN INTRA</h1>
 
+<h2>Only for 42 student</h2>
 i try to make a program that help me to open everything by one button (still in process)
 if you guys want the executable file you can use pyinstaller to convert python file to executable file
 
