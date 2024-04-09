@@ -19,6 +19,8 @@ def open_locatepeer():
 	webbrowser.open("https://locatepeer.vercel.app/")
 def open_slot():
 	webbrowser.open("https://profile.intra.42.fr/slots")
+def open_github():
+	webbrowser.open("https://github.com/wenjuin95")
 
 window = Tk() # create a window
 window.geometry("500x175") # width x height
@@ -49,5 +51,9 @@ locateButton.pack(side=LEFT, padx=10, pady=10)
 # button to open the slots
 slotButton = Button(button_frame, text="Open Slots", padx=10, pady=10, bg="light gray", command=open_slot)
 slotButton.pack(side=LEFT, padx=10, pady=10)
+
+# open github
+githubButton = Button(button_frame, text="Open Github", padx=10, pady=10, bg="light gray", command=open_github)
+githubButton.pack(side=LEFT, padx=10, pady=10)
 
 window.mainloop() # run the window
