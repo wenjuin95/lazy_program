@@ -1,4 +1,4 @@
-<h1>TIMER AND BUTTON TO OPEN INTRA</h1>
+<h1>CLOCK AND BUTTON TO OPEN INTRA</h1>
 
 i try to make a program that help me to open everything by one button (still in process)
 if you guys want the executable file you can use pyinstaller to convert python file to executable file
@@ -13,7 +13,7 @@ if you guys want the executable file you can use pyinstaller to convert python f
 
         pip install pyinstaller
 
-3. (window)now you can convert the python file to executable file (replace "YOUR_USER_NAME" with your user name and "your_script_name.py" with the name of your python file)
+3. (window: use power shell)now you can convert the python file to executable file (replace "YOUR_USER_NAME" with your user name and "your_script_name.py" with the name of your python file)
 
         python C:\Users\[YOUR_USER_NAME]\AppData\...Scripts\pyinstaller.exe --onefile [your_script_name.py]
 
