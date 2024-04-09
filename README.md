@@ -13,8 +13,12 @@ if you guys want the executable file you can use pyinstaller to convert python f
 
         pip install pyinstaller
 
-3. now you can convert the python file to executable file (replace "file" with the name of your python file)
+3. (window)now you can convert the python file to executable file (replace "YOUR_USER_NAME" with your user name and "your_script_name.py" with the name of your python file)
 
-        pyinstaller <file>.py --onefile --windowed
+        python C:\Users\[YOUR_USER_NAME]\AppData\...Scripts\pyinstaller.exe --onefile [your_script_name.py]
+
+3. (macos) (replace "your_script_name.py" with the name of your python file)
+
+        pyinstaller --onefile --windowed [your_script_name.py]
 
 4. you can go to "dist" folder to look for exe 
