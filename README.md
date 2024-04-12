@@ -1,15 +1,18 @@
 <h1>LAZY PROGRAM</h1>
 
-<p>1. i try to make a program that help me to open website with button</p>
+![image](https://github.com/wenjuin95/lazy_program/blob/main/Untitled.png)
+
+<p>1. i try to make a program that help me to open the website i always visit with button</p>
 <p>2. if you want your own button you can go to custom.py to modified your self</p>
 
-Requirements for this program
- - python
- - pip
- - pyinstaller
+<h2>Available for window and mac user</h2>
+<h2>Requirements for this program</h2>
+ <p>- python</p>
+ <p>- pip</p>
+ <p>- pyinstaller</p>
 
 <h2>you have two option to install</h2>
-<p>OPTION 1</p>
+<h3>OPTION 1</h3>
 
 1. check your pyinstaller does it exist
 
@@ -25,7 +28,7 @@ Requirements for this program
 
 4. done (your exe file is in "dist" folder)
 
-<p>OPTION 2</p>
+<h3>OPTION 2</h3>
 <p>[ TURN PYTHON FILE TO EXE FILE ]<p>
 
 1. check your pyinstaller does it exist
@@ -47,4 +50,3 @@ Requirements for this program
 
 4. done (your exe file is in "dist" folder)
 
-<h2>Available for window and mac user</h2>
