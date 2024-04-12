@@ -1,11 +1,9 @@
-<h1>CLOCK AND BUTTON TO OPEN INTRA</h1>
+<h1>LAZY PROGRAM</h1>
 
-<h2>Only for 42 student</h2>
-<p>i try to make a program that help me to open everything by one button (still in process)</p>
-<p>if you want your own you can go to custom.py</p>
-<p>if you guys want the executable file you can use pyinstaller to convert python file to executable file</p>
+<p>1. i try to make a program that help me to open website with button</p>
+<p>2. if you want your own button you can go to custom.py to modified your self</p>
 
-<h2>GUIDE (STILL IN PROCESS)</h2>
+<h2>TURN PYTHON FILE TO EXE FILE GUIDE</h2>
 
 1. check your pyinstaller does it exist
 
@@ -15,12 +13,15 @@
 
         pip install pyinstaller
 
-3. (window: use power shell)now you can convert the python file to executable file (replace "YOUR_USER_NAME" with your user name and "your_script_name.py" with the name of your python file)
+3. (window: use power shell)now you can convert the python file to executable file
+[ replace "pyinstaller.exe path" with the path you get (example: C:\Users\[YOUR_USER_NAME]\AppData\...Scripts\pyinstaller.exe) and "your_script_name.py" is the name of your python file ]
 
-        python C:\Users\[YOUR_USER_NAME]\AppData\...Scripts\pyinstaller.exe --onefile [your_script_name.py]
+        python [pyinstaller.exe path] --onefile [your_script_name.py]
 
 3. (macos) (replace "your_script_name.py" with the name of your python file)
 
         pyinstaller --onefile --windowed [your_script_name.py]
 
-4. you can go to "dist" folder to look for exe 
+4. it will generate the exe file to the dist folder.
+
+<h2>Available for window and mac user</h2>
