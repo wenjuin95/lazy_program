@@ -3,7 +3,30 @@
 <p>1. i try to make a program that help me to open website with button</p>
 <p>2. if you want your own button you can go to custom.py to modified your self</p>
 
-<h2>TURN PYTHON FILE TO EXE FILE GUIDE</h2>
+Requirements for this program
+ - python
+ - pip
+ - pyinstaller
+
+<h2>you have two option to install</h2>
+<p>OPTION 1</p>
+
+1. check your pyinstaller does it exist
+
+        pyinstaller -v
+
+2. if not exit try to install with pip
+
+        pip install pyinstaller
+
+3. compile the install.py
+
+        python install.py
+
+4. done (your exe file is in "dist" folder)
+
+<p>OPTION 2</p>
+<p>[ TURN PYTHON FILE TO EXE FILE ]<p>
 
 1. check your pyinstaller does it exist
 
@@ -22,6 +45,6 @@
 
         pyinstaller --onefile --windowed [your_script_name.py]
 
-4. it will generate the exe file to the dist folder.
+4. done (your exe file is in "dist" folder)
 
 <h2>Available for window and mac user</h2>
