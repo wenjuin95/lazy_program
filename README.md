@@ -2,8 +2,19 @@
 
 ![image](https://github.com/wenjuin95/lazy_program/blob/main/Untitled.png)
 
-<p>1. i try to make a program that help me to open the website i always visit with button</p>
-<p>2. if you want your own button you can go to custom.py to modified your self</p>
+<p>1. i try to make a program that help me to open a website that i always visit with a click of button</p>
+<p>2. you need to put the link in the custom.py else it won't work</p>
+<p> in this part</p>
+
+    def open_url():
+	     webbrowser.open("[intra link]") #replce [intra link] with your intra link
+    def open_locatepeer():
+      	webbrowser.open("https://locatepeer.vercel.app/")
+    def open_slot():
+      	webbrowser.open("[intra slot link]") #replce [intra slot link] with your intra slot link
+    def open_github():
+      	webbrowser.open("[github link]") #replace [github link] with your github link
+ <p>3. feel free to modify your own button</p>
 
 <h2>Available for window and mac user</h2>
 <h2>Requirements for this program</h2>
@@ -29,7 +40,7 @@
 4. done (your exe file is in "dist" folder)
 
 <h3>OPTION 2</h3>
-<p>[ TURN PYTHON FILE TO EXE FILE ]<p>
+<p>[ PYTHON FILE TO EXE FILE ]<p>
 
 1. check your pyinstaller does it exist
 
@@ -50,3 +61,4 @@
 
 4. done (your exe file is in "dist" folder)
 
+PS: the ui is very ugly hope you guys don't mind
