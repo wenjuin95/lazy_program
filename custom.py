@@ -23,8 +23,8 @@ def open_github():
 	webbrowser.open("[your github link]")
 
 window = Tk() # create a window
-window.geometry("500x175") # width x height
-window.configure(bg="#3d3d3d") # background color
+window.geometry("500x175") #window width x height
+window.configure(bg="#3d3d3d") #window background color
 
 # time labels
 time_label = Label(window, font=("Math Sans", 40), bg="#3d3d3d", fg="#d4d4d4") # font(type, size), bg: background color, fg: foreground color (object before background)
