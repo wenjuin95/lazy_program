@@ -23,6 +23,7 @@ def open_github():
 	webbrowser.open("[your github link]")
 
 window = Tk() # create a window
+window.title("lazy_program") # window title
 window.geometry("500x175") #window width x height
 window.configure(bg="#3d3d3d") #window background color
 
