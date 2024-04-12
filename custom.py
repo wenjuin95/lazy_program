@@ -14,13 +14,13 @@ def update():
 
 # function to open the URL
 def open_url():
-	webbrowser.open("[your intra link]")
+	webbrowser.open("[intra link]") #replce [intra link] with your intra link
 def open_locatepeer():
 	webbrowser.open("https://locatepeer.vercel.app/")
 def open_slot():
-	webbrowser.open("[your instar slot link]")
+	webbrowser.open("[intra slot link]") #replce [intra slot link] with your intra slot link
 def open_github():
-	webbrowser.open("[your github link]")
+	webbrowser.open("[github link]") #replace [github link] with your github link
 
 window = Tk() # create a window
 window.title("lazy_program") # window title
@@ -43,7 +43,8 @@ button_frame = Frame(window, bg="#3d3d3d")
 button_frame.pack()
 
 # button to open the intra
-myButton = Button(button_frame, text="Open Intra", padx=10, pady=10, bg="light gray", command=open_url)
+# text: button name, padx: padding in x-axis, pady: padding in y-axis, bg: background color, command: function to run when the button is clicked
+myButton = Button(button_frame, text="Open Intra", padx=10, pady=10, bg="light gray", command=open_url) 
 myButton.pack(side=LEFT, padx=10, pady=10)
 
 # button to open the locate peer
