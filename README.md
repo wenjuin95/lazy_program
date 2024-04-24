@@ -1,23 +1,26 @@
 <h1>LAZY PROGRAM</h1>
+<h4>Are you feel tired when you need to go through an open browser to open intra website or peer locate?</h4>
+<h4>HERE'S THE SOLUTION</h4>
 
 ![image](https://github.com/wenjuin95/lazy_program/blob/main/Untitled.png)
 
 <p>1. i try to make a program that help me to open a website that i always visit with a click of button</p>
-<p>2. you need to put the link in the custom.py else it won't work</p>
-<p> in this part</p>
-
+<p>2. you need to put the link in the <b>custom.py</b> else it won't work</p>
+• find this part
+<pre>
     def open_url():
-	     webbrowser.open("[intra link]") #replce [intra link] with your intra link
+	     webbrowser.open("[intra link]")-------_> replce [intra link] with your intra link
     def open_locatepeer():
       	webbrowser.open("https://locatepeer.vercel.app/")
     def open_slot():
-      	webbrowser.open("[intra slot link]") #replce [intra slot link] with your intra slot link
+      	webbrowser.open("[intra slot link]")--------> replce [intra slot link] with your intra slot link
     def open_github():
-      	webbrowser.open("[github link]") #replace [github link] with your github link
+      	webbrowser.open("[github link]")------------> replace [github link] with your github link
+</pre>
  <p>3. feel free to modify your own button</p>
 
-<h2>Available for window and mac user</h2>
 <h2>Requirements for this program</h2>
+ <p>- Available for window and mac user</p>
  <p>- python</p>
  <p>- pip</p>
  <p>- pyinstaller</p>
